@@ -1,11 +1,15 @@
 {
   "name": "blender-file",
   "version": "1.0.0",
-  "description": "Blender file parser",
-  "main": "index.js",
+  "description": "Blender file modifier type patching utility",
+  "main": "bl_modconv.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "argparse": "^1.0.10",
+    "kaitai-struct": "^0.9.0-SNAPSHOT.1"
+  }
 }
