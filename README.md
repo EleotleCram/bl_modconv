@@ -4,7 +4,7 @@ Blender file modifier type patching utility
 
 ## Introduction
 
-When following [the instructions on how to add a custom modifier to Blender](https://blog.exppad.com/article/writing-blender-modifier), it becomes clear that adding you own modifier to [Blender](https://www.blender.org/) requires patching of a ton of core Blender files. This essentially results in forking the Blender file format specifically for your modifier (until you get your modifier code in the main Blender trunk).
+When following [the instructions on how to add a custom modifier to Blender](https://blog.exppad.com/article/writing-blender-modifier), it becomes clear that adding your own modifier to [Blender](https://www.blender.org/) requires patching of a ton of core Blender files. This essentially results in forking the Blender file format specifically for your modifier (until you get your modifier code in the main Blender trunk).
 
 When you use your own modifier in `.blend` files for production, you run the risk that future versions of Blender may use the same enum for your modifier type and this will break your `.blend` files and your custom modifier.
 
